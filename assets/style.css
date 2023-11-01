@@ -7,7 +7,6 @@
 html,
 body,
 .wrapper {
-  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -40,6 +39,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  position: relative;
 }
 
 .card-header::after {
@@ -116,6 +116,21 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+#helpshadow {
+  box-shadow: rgb(223, 23, 23) 0px 0px 18px 1px inset;
+}
+
+#arrow {
+  position: absolute;
+  top: 18px;
+  right: 350px;
+  width: 80px;
+  height: 80px;
+  background: #c0c7cf;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 @media (max-width: 690px) {
