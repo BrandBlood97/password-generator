@@ -130,7 +130,6 @@ button[disabled] {
   height: 80px;
   background: #c0c7cf;
   border-radius: 50%;
-  cursor: pointer;
 }
 
 @media (max-width: 690px) {
@@ -143,10 +142,18 @@ button[disabled] {
   #password {
     font-size: 1rem;
   }
+
+  #arrow {
+    right: 180px;
+  }
 }
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  #arrow {
+    right: 170px;
   }
 }
